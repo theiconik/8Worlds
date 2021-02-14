@@ -1,13 +1,20 @@
-
-body {
-   margin: 0;
-   padding: 0;
-   overflow-x: hidden;
-   font-family: "Roboto";
-   list-style: none;
-   box-sizing: border-box;
-   background: #000;
+@font-face {
+  font-family: "alphacentaurimedium";
+  src: url("alphacentauri-mvy4p-webfont.woff2") format("woff2"),
+    url("alphacentauri-mvy4p-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@import './nav';
-@import './section';
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Roboto";
+  list-style: none;
+  box-sizing: border-box;
+  background: #000;
+}
+
+@import "./nav";
+@import "./section";
