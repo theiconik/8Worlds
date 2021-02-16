@@ -14,7 +14,7 @@ let keys = [
 ];
 
 let slider = new Swiper(".swiper-container", {
-  slidesPreView: "auto",
+  slidesPerView: "auto",
   spaceBetween: 150,
   centeredSlides: true,
   mousewheel: true,
